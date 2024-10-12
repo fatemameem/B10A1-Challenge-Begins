@@ -69,13 +69,12 @@ button.download-resume-btn a{
   text-align: center;
 }
 
-.hero-content > p{
+p.p-text{
   margin: 24px 0px;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0%;
-  text-align: center;
 }
 
 .hero-content > button{
@@ -94,7 +93,7 @@ button.download-resume-btn a{
   opacity: 0.8;
 }
 
-.hero-content > button a{
+.hero-content > button > a{
   text-decoration: none;
   color: white;
   font-size: 20px;
@@ -102,4 +101,95 @@ button.download-resume-btn a{
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+.margin{
+  margin: 75px 150px;
+}
+
+.web-dev-reason{
+  padding: 80px 95px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.reason-header{
+  padding: 0 47px 48px;
+  text-align: center;
+}
+
+.web-dev-reason > div.reason-header > h2{
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.web-dev-reason > .card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 47px;
+  background-color: white;
+  margin: 0 0 32px;
+  border-radius: 16px;
+  gap: 32px;
+}
+
+.web-dev-reason > .card > div{
+  width: 477px;
+  height: 219px;
+}
+
+.web-dev-reason > .card > div > h6{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: rgba(13, 19, 33, 0.7);
+  margin: 16px 0;
+}
+
+.web-dev-reason > .card > div > button.btn-secondary{
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.web-dev-inspiration{
+  margin: 90px 0;
+  text-align: center;
+}
+
+.web-dev-inspiration > h2{
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+.web-dev-inspiration > div{
+  margin: 48px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.web-dev-inspiration > div > iframe{
+  width: 100%;
+  height: 800px;
+  border: none;
+  border-radius: 16px;
 }
