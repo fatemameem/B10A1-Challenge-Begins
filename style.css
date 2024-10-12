@@ -4,6 +4,10 @@
 body{
   overflow-x: hidden;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 header > nav{
   display: flex;
   justify-content: space-between;
@@ -192,4 +196,111 @@ p.p-text{
   height: 800px;
   border: none;
   border-radius: 16px;
+}
+
+.web-dev-current-target{
+  margin: 150px 0;
+  text-align: center;
+}
+
+.web-dev-current-target > h2{
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  margin: 24px 0px;
+}
+
+.web-dev-current-target > p{
+  opacity: 0.7;
+}
+
+.web-dev-current-target > .card-container{
+  display: flex;
+  text-align: left;
+  margin: 48px 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.web-dev-current-target > .card-container > .card{
+  margin: 0 16px;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.web-dev-current-target > .card-container > .card > div > h6{
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+
+.web-dev-current-target > .card-container > .card > div > p{
+  opacity: 0.7;
+  margin-top: -16px;
+}
+
+a.link{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  border: none;
+  background-color: none;
+}
+
+.html{
+background: rgba(255, 76, 30, 0.05);
+}
+
+.css{
+background: rgba(0, 132, 255, 0.05);
+}
+
+.js{
+background: rgba(255, 217, 0, 0.05);
+}
+
+.web-dev-next-target{
+  margin: 60px 0;
+  color: rgb(13, 19, 33);
+}
+
+.web-dev-next-target > h2{
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.web-dev-next-target > p.p-text{
+  margin-bottom: 48px;
+}
+.web-dev-next-target > p.p-text,
+.web-dev-next-target > .card > div > p.p-text{
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 26px;
+}
+
+.web-dev-next-target > .card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 0 0 32px;
+  border-radius: 16px;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
 }
