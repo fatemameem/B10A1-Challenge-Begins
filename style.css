@@ -1,3 +1,105 @@
 *{
-  color: red
+  font-family: Azeret Mono;
+}
+body{
+  overflow-x: hidden;
+}
+header > nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+  overflow-x: auto;
+}
+button.download-resume-btn{
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 8px;
+  opacity: 1.0;
+  padding: 17px 24px 17px 24px;
+  cursor: pointer;
+}
+button.download-resume-btn:hover{
+  opacity: 0.8;
+}
+button.download-resume-btn a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hero{
+  position: relative;
+  text-align: center;
+}
+
+.hero > .hero-image > img{
+  width: 100vw;
+  height: 652px;
+}
+
+.hero > .hero-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-content > img{
+  width: 240.28px;
+  height: 240px;
+}
+
+.hero-content > h1{
+  margin: 24px 0px;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hero-content > p{
+  margin: 24px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hero-content > button{
+  box-sizing: border-box;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  opacity: 1.0;
+  padding: 17px 24px 17px 24px;
+  cursor: pointer;
+  margin: 32px 0px;
+}
+
+.hero-content > button:hover{
+  opacity: 0.8;
+}
+
+.hero-content > button a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
 }
